@@ -90,7 +90,7 @@ plt.legend()
 plt.show()
 
 '''
-# HOMEWORK
+# TODO
 # Getting the real stock price of 2012-2016
 real_stock_price_train = pd.read_csv("Google_Stock_Price_Train.csv")
 real_stock_price_train = real_stock_price_train.iloc[:, 1:2].values   
